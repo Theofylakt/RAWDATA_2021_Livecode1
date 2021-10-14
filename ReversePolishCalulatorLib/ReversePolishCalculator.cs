@@ -15,9 +15,11 @@ namespace ReversePolishCalculatorLib
                 return int.Parse(input);
 
             var val1 = int.Parse(tokens[0]);
-            var val2 = int.Parse(tokens[1]); ;
+            var val2 = int.Parse(tokens[1]);
 
-            return val1 + val2;
+            if(tokens[2] == "+")
+                return val1 + val2;
+            return val1 * val2;
         }
     }
 }
