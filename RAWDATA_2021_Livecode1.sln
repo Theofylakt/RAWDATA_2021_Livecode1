@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethodExample", "ExtensionMethodExample\ExtensionMethodExample.csproj", "{D3D0B287-D1AC-4E5D-BCA4-A1AF02B2FF7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishCalulatorLib", "ReversePolishCalulatorLib\ReversePolishCalulatorLib.csproj", "{852910BC-62B1-4A0F-BF00-0875DAE1B75A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishCalculatorLib", "ReversePolishCalulatorLib\ReversePolishCalculatorLib.csproj", "{852910BC-62B1-4A0F-BF00-0875DAE1B75A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishCalulatorTesting", "ReversePolishCalulatorTesting\ReversePolishCalulatorTesting.csproj", "{7DE7F248-F549-4862-A7EB-7C8BC35CA4AD}"
 EndProject
