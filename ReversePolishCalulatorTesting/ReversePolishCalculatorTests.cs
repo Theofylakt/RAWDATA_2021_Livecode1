@@ -23,5 +23,14 @@ namespace ReversePolishCalulatorTesting
             var result = calculator.Compute("4");
             Assert.Equal(4, result);
         }
+
+        [Fact]
+        public void Compute_AdditionWithTwoIntegers_ReturnTheSum()
+        {
+            var calculator = new ReversePolishCalculator();
+
+            var result = calculator.Compute("5 6 +");
+            Assert.Equal(11, result);
+        }
     }
 }
