@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethodExample", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishCalulatorLib", "ReversePolishCalulatorLib\ReversePolishCalulatorLib.csproj", "{852910BC-62B1-4A0F-BF00-0875DAE1B75A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishCalulatorTesting", "ReversePolishCalulatorTesting\ReversePolishCalulatorTesting.csproj", "{7DE7F248-F549-4862-A7EB-7C8BC35CA4AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{852910BC-62B1-4A0F-BF00-0875DAE1B75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{852910BC-62B1-4A0F-BF00-0875DAE1B75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{852910BC-62B1-4A0F-BF00-0875DAE1B75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE7F248-F549-4862-A7EB-7C8BC35CA4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE7F248-F549-4862-A7EB-7C8BC35CA4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE7F248-F549-4862-A7EB-7C8BC35CA4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE7F248-F549-4862-A7EB-7C8BC35CA4AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
