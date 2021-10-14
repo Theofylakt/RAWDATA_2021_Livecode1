@@ -32,5 +32,14 @@ namespace ReversePolishCalulatorTesting
             var result = calculator.Compute("5 6 +");
             Assert.Equal(11, result);
         }
+
+        [Fact]
+        public void Compute_MultiplyWithTwoIntegers_ReturnTheValue()
+        {
+            var calculator = new ReversePolishCalculator();
+
+            var result = calculator.Compute("1 2 *");
+            Assert.Equal(2, result);
+        }
     }
 }
