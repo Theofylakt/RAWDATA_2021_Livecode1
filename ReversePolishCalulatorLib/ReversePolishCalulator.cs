@@ -2,7 +2,7 @@
 
 namespace ReversePolishCalulatorLib
 {
-    public class Class1
+    public class ReversePolishCalulator
     {
     }
 }
