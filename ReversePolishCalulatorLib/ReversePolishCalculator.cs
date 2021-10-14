@@ -6,7 +6,10 @@ namespace ReversePolishCalculatorLib
     {
         public int Compute(string input)
         {
-            return 0;
+            if (string.IsNullOrEmpty(input))
+                return 0;
+
+            return int.Parse(input);
         }
     }
 }
