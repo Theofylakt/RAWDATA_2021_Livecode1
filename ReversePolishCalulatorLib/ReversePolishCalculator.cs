@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ReversePolishCalculatorLib
 {
@@ -14,12 +15,35 @@ namespace ReversePolishCalculatorLib
             if (tokens.Length == 1)
                 return int.Parse(input);
 
-            var val1 = int.Parse(tokens[0]);
-            var val2 = int.Parse(tokens[1]);
+            var stack = new Stack<int>();
 
-            if(tokens[2] == "+")
-                return val1 + val2;
-            return val1 * val2;
+
+            foreach (var token in tokens)
+            {
+                if (int.TryParse(token, out var number))
+                {
+                    stack.Push(number);
+                }
+                else
+                {
+                    if (token == "+")
+                    {
+                        var val2 = stack.Pop();
+                        var val1 = stack.Pop();
+                        stack.Push(val1 + val2);
+                    }
+
+                    else if (token == "*")
+                    {
+                        var val2 = stack.Pop();
+                        var val1 = stack.Pop();
+                        stack.Push(val1 * val2);
+                    }
+
+                }
+            }
+
+            return stack.Pop();
         }
     }
 }
