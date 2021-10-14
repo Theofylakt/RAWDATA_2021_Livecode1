@@ -41,5 +41,14 @@ namespace ReversePolishCalulatorTesting
             var result = calculator.Compute("1 2 *");
             Assert.Equal(2, result);
         }
+
+        [Fact]
+        public void Compute_CompoundExp_ReturnTheValue()
+        {
+            var calculator = new ReversePolishCalculator();
+
+            var result = calculator.Compute("1 2 3 + *");
+            Assert.Equal(5, result);
+        }
     }
 }
